@@ -18,7 +18,11 @@ require_relative './course.rb'
       #course.description = post.css("p").text
     
     #end 
-  end 
+   end 
+   
+    def make_courses
+      self.get_courses.each do |post|
+        
   
     def get_courses 
       self.get_page.css(".post")
