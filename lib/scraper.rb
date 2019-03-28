@@ -22,6 +22,8 @@ require_relative './course.rb'
   
     def get_courses 
       
+      
+    end
   
     def print_courses
     self.make_courses
